@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Three js</title>
+	<script src="js/jquery.min-1.8.1.js"></script>
+	<script src="js/three.min.js"></script>
+	<script src="js/BinaryReader.js"></script>
+	<script src="js/STLLoader.js"></script>
+	<script src="js/OrbitControls.js"></script>
+	<script src="js/renderView.js"></script>
+	<style>
+		.wrapper {
+			height: 480px;
+			width: 520px;
+			margin: 0 auto;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+<input type="file" id="stlFile">
+<div class="wrapper">
+	<div id="canvasWrap"></div>
+</div>
+<script>
+	$(document).ready(function(){
+		 creatingView = new creatingView("canvasWrap");
+		});
+</script>
+</body>
+</html>
